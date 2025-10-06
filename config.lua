@@ -16,16 +16,16 @@ Config.EnableLogs = {
 }
 
 Config.WebhookURL = {
-    Join    = 'https://discord.com/api/webhooks/1424641267073028187/nhkROa_dpBzrtKsIZ9l6-F9q0Y4O2BH85c82jcopdxRc6WOKY-WZLF6jdp3p8Mu4uPlL',
-    Leave   = 'https://discord.com/api/webhooks/1424641334093811794/ZzImvCukq3NEuknlbmSujOmH07i5y5i7TfwO_hGt6seCpFyc5x7o2z3C4NOFAdHbTICk',
-    Chat    = 'https://discord.com/api/webhooks/1424641118175494155/2aK7SbeLeh8IkOJRima2D3c9Wn4znogwZ2CTEN12dgzfpNoIJZ41GoILuVoRoabYy1KA',
-    Aim     = 'https://discord.com/api/webhooks/1424641190397214751/ohKDnj1_KaUY8Z-IHz0mdbH2xoNBrQastct1O1PSseWlncfDijwM1emLuAUR0DLyAqE4',
-    Kill    = 'https://discord.com/api/webhooks/1424641052861661204/MnJD6ZGaFgTQKpFZN024fHRSyKt_Ck-APke0WrvOyoXSLd6tMDaL3fvKEgJHaqcW-FGI',
-    Resource = 'https://discord.com/api/webhooks/1424640760233463842/yGZqq1diRYEvU5lP7GP8NCqsbdROSZj6CFPH4nb2AK71LRYBF_Yk4C3Ds523todfUO7o',
-    Explosion = 'https://discord.com/api/webhooks/1424640843150528653/0hHqpHWx3JHzdOsFfqCXg6V3I9YPU_jOc9I0RQSwwJjZ6yRYkWtGQ0pL5hAOZlTPAD-d',
-    Shooting = 'https://discord.com/api/webhooks/1424640910389678140/sYtHuuS6IWv-V6edrnCBLUT5UXjqKPHTl-Q3pG6D8BMWoDs5xbiiiOInHdguH-1gIDvE',
-    Damage = 'https://discord.com/api/webhooks/1424640992430260366/ewAeoDM2UrzSKjzhjaK_ekzA8mGBijrkVLZwVR1ZrXxlid1tXj4N9WmtFbFDj0cjCL8E',
-    NewPlayer = 'https://discord.com/api/webhooks/1424650498169897003/WoxUX6RU_TjJcNz7NqYqGlAhNauyxFq6EoXd0ybWLJc_I5ZLbmbjmyRknrWln_SrTeUa',
+    Join    = 'YOUR_WEBHOOK_URL_HERE',
+    Leave   = 'YOUR_WEBHOOK_URL_HERE',
+    Chat    = 'YOUR_WEBHOOK_URL_HERE',
+    Aim     = 'YOUR_WEBHOOK_URL_HERE',
+    Kill    = 'YOUR_WEBHOOK_URL_HERE',
+    Resource = 'YOUR_WEBHOOK_URL_HERE',
+    Explosion = 'YOUR_WEBHOOK_URL_HERE',
+    Shooting = 'YOUR_WEBHOOK_URL_HERE',
+    Damage = 'YOUR_WEBHOOK_URL_HERE',
+    NewPlayer = 'YOUR_WEBHOOK_URL_HERE',
 }
 
 Config.EmbedColors = {
@@ -44,4 +44,5 @@ Config.EmbedColors = {
 Config.WeaponsNotLogged = {
     'WEAPON_UNARMED',
     'WEAPON_STUNGUN',
+
 }
