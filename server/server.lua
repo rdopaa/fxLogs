@@ -1,6 +1,13 @@
 if Config.ESX then
     ESX = exports['es_extended']:getSharedObject()
 end
+for logType, url in pairs(Config.WebhookURL) do
+    if url == "YOUR_WEBHOOK_URL_HERE" then
+        if Config.Debug then
+            print(string.format("^1[FX-LOGS | ERROR]^7 Webhook URL for '%s' is set to the default placeholder in Config.lua!", logType))
+        end
+    end
+end
 
 local function SendWebhook(logType, embedData)
     local webhookURL = Config.WebhookURL[logType]
@@ -700,3 +707,4 @@ print(' LOGS STARTED | ^2FX-Logs^7 ')
 print(' ^3by fxDopa^7 ')
 
 print('^7===============================')
+
