@@ -333,7 +333,7 @@ AddEventHandler('explosionEvent', function(source, ev)
     local currentTime = os.date("%H:%M:%S")
 
     local playerName = GetPlayerName(src)
-    local playerID = ostring(src)
+    local playerID = tostring(src)
 
     local embed = {
         title = "💥 Explosion Log",
@@ -698,4 +698,5 @@ end)
 print('^7===============================')
 print(' LOGS STARTED | ^2FX-Logs^7 ')
 print(' ^3by fxDopa^7 ')
+
 print('^7===============================')
